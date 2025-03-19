@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Hover Effect</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .carousel-container {
+            width: 80%;
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel-container .carousel {
+            display: flex;
+            gap: 10px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-container .card {
+            width: 35%;
+            height: 400px;
+            transition: all 0.4s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            flex-shrink: 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .carousel-container .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .carousel-container .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+        .carousel-container .card-content span {
+            font-size: 16px;
+            display: block;
+            font-weight: bold;
+            opacity: 0.9;
+        }
+        .carousel-container .card-content h3 {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        .carousel-container .card-content a {
+            display: inline-block;
+            background: #ffd700;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+        .carousel-container .card-content a:hover {
+            background: #ffcc00;
+            transform: scale(1.05);
+        }
+        .carousel-container .card:hover {
+            width: 45%;
+            height: 450px;
+            z-index: 2;
+            transform: scale(1.05);
+        }
+        .carousel-container .carousel:hover .card:not(:hover) {
+            width: 25%;
+            height: 250px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel" id="carousel">
+            <div class="card">
+                <img src="assets/img/project/project-carousel-2.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>Medical Website Development</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/project/project-carousel-1.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>Social Media Integration</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/project/project-carousel-3.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>User Interface Design</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/img/project/project-carousel-2.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>Medical Website Development</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/project/project-carousel-1.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>Social Media Integration</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/project/project-carousel-3.jpg" alt="project">
+                <div class="card-content">
+                    <span>Creative App Design</span>
+                    <h3>User Interface Design</h3>
+                    <a href="project-details">✨ View Details ✨</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let index = 0;
+        function updateCarousel() {
+            const carousel = document.getElementById('carousel');
+            const cardWidth = document.querySelector('.card').offsetWidth + 10; // Include gap
+            carousel.style.transform = `translateX(-${index * cardWidth}px)`;
+        }
+        function autoSlide() {
+            const totalCards = document.querySelectorAll('.card').length;
+            if (index < totalCards - 3) {
+                index++;
+            } else {
+                index = 0;
+            }
+            updateCarousel();
+        }
+        setInterval(autoSlide, 3000); // Change slide every 3 seconds
+    </script>
+</body>
+</html>
