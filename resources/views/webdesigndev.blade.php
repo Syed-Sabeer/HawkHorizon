@@ -5,12 +5,12 @@
 
 
 
-    <section class="page-header" data-background="assets/img/bg-img/page-header-bg.jpg">
+    <section class="page-header" data-background="{{ asset('assets/img/bg-img/page-header-bg.jpg')}}">
         <div class="overlay"></div>
         <div class="shapes">
-            <div class="shape shape-1"><img src="assets/img/shapes/page-header-shape-1.png" alt="shape"></div>
-            <div class="shape shape-2"><img src="assets/img/shapes/page-header-shape-2.png" alt="shape"></div>
-            <div class="shape shape-3"><img src="assets/img/shapes/page-header-shape-3.png" alt="shape"></div>
+            <div class="shape shape-1"><img src="{{ asset('assets/img/shapes/page-header-shape-1.png')}}" alt="shape"></div>
+            <div class="shape shape-2"><img src="{{ asset('assets/img/shapes/page-header-shape-2.png')}}" alt="shape"></div>
+            <div class="shape shape-3"><img src="{{ asset('assets/img/shapes/page-header-shape-3.png')}}" alt="shape"></div>
         </div>
         <div class="container">
             <div class="page-header-content text-center">
@@ -28,7 +28,7 @@
                     <!-- <div class="sidebar-content-wrap"> -->
                         <div class="service-details-img">
                             <!-- <img src="assets/img/service/service-details-img.jpg" alt="service"> -->
-                            <img src="assets/img/service/web.dev.webp" alt="service" >
+                            <img src="{{ asset('assets/img/service/web.dev.webp')}}" alt="service" >
                         </div>
                         <div class="service-details-content">
                             <h2 class="title">WEB DESIGN & DEVELOPMENT</h2>

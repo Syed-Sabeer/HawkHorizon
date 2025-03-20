@@ -31,3 +31,8 @@ Route::get('/service/web-design-development', [ServiceController::class, 'webdes
 Route::get('/service/seo-search-engine-optimization', [ServiceController::class, 'seo'])->name('service.seo');
 Route::get('/service/social-media-marketing', [ServiceController::class, 'socialmediamarketing'])->name('service.socialmediamarketing');
 Route::get('/service/google-ads', [ServiceController::class, 'googleads'])->name('service.googleads');
+Route::get('/service/email-marketing', [ServiceController::class, 'emailmarketing'])->name('service.emailmarketing');
+Route::get('/service/graphic-designing', [ServiceController::class, 'graphicsdesigning'])->name('service.graphicsdesigning'); 
+Route::get('/service/content-writing', [ServiceController::class, 'contentwriting'])->name('service.contentwriting'); 
+Route::get('/service/google-my-business', [ServiceController::class, 'googlemybusiness'])->name('service.googlemybusiness'); 
+Route::get('/service/e-commerce-website', [ServiceController::class, 'ecommercewebsite'])->name('service.ecommercewebsite'); 

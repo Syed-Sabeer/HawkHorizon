@@ -30,7 +30,7 @@
     <div class="container">
         <div class="footer-top">
             <div class="footer-logo d-none">
-                <a href="index"><img src="{{ asset('assets/img/logo/logo-3.png')}}" width="210" height="152"
+                <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo-3.png')}}" width="210" height="152"
                         alt="logo"></a>
             </div>
             <ul class="social-list d-none">
@@ -58,7 +58,7 @@
                         <li><a href="about">About Us</a></li>
                         <li><a href="portfolio">Our Gallery</a></li>
                         <li><a href="service">Our Services</a></li>
-                        <li><a href="team">Our Team</a></li>
+                        <li><a href="contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

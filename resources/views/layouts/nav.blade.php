@@ -8,7 +8,7 @@
     <div class="primary-header">
         <div class="primary-header-inner">
             <div class="header-logo d-lg-block">
-                <a href="index">
+                <a href="{{ route('home') }}">
                     <img class="logo-dark" src="{{ asset('assets/img/logo/logo-2.png')}}" alt="Logo">
                    <img class="logo-light" src="{{ asset('assets/img/logo/logo-2.png')}}" alt="Logo">
                  <img class="logo-light-2" src="{{ asset('assets/img/logo/logo-3.png')}}" alt="Logo">
@@ -64,11 +64,11 @@
                                 <li><a href="{{ route('service.seo') }} ">Search Engine Optimization</a></li>
                                 <li><a href="{{ route('service.socialmediamarketing') }}">Social Media Marketing</a></li>
                                 <li><a href="{{ route('service.googleads') }}">Google Ads</a></li>
-                                <li><a href="email-marketing">Email Marketing</a></li>
-                                <li><a href="graphic-designing">Graphic Designing</a></li>
-                                <li><a href="content-writing">Content Writing</a></li>
-                                <li><a href="google-my-business">Google My Business</a></li>
-                                <li><a href="e-commerce-website">E-Commerce Website</a></li>
+                                <li><a href="{{ route('service.emailmarketing') }}">Email Marketing</a></li>
+                                <li><a href="{{ route('service.graphicsdesigning') }}">Graphic Designing</a></li>
+                                <li><a href="{{ route('service.contentwriting') }}">Content Writing</a></li>
+                                <li><a href="{{ route('service.googlemybusiness') }}">Google My Business</a></li>
+                                <li><a href="{{ route('service.ecommercewebsite') }}">E-Commerce Website</a></li>
 
                                 <!-- <li><a href="service-details">Service Details</a></li> -->
                             </ul>
@@ -143,8 +143,8 @@
     </button>
     <div class="side-menu-content">
         <div class="side-menu-logo">
-            <a class="dark-img" href="index"><img src="{{ asset('assets/img/logo/logo-2.png')}}" alt="logo"></a>
-           <a class="light-img" href="index"><img src="{{ asset('assets/img/logo/logo-3.png')}}" alt="logo"></a>
+            <a class="dark-img" href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo-2.png')}}" alt="logo"></a>
+           <a class="light-img" href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo-3.png')}}" alt="logo"></a>
         </div>
         <div class="side-menu-wrap"></div>
         <div class="side-menu-about">

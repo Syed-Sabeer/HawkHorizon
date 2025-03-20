@@ -13,7 +13,7 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/index.html</loc>
+  <loc>https://hawkhorizon.com/portfolio</loc>
   <lastmod>2025-03-12T08:58:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -28,105 +28,65 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://hawkhorizon.com/contact</loc>
+  <lastmod>2025-03-12T08:41:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://hawkhorizon.com/service</loc>
   <lastmod>2025-03-12T08:43:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
-  <loc>https://hawkhorizon.com/web-design-development</loc>
-  <lastmod>2025-03-12T08:59:52+00:00</lastmod>
+  <loc>https://hawkhorizon.com/service/web-design-development</loc>
+  <lastmod>2025-03-12T08:43:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
-  <loc>https://hawkhorizon.com/seo-search-engine-optimization</loc>
-  <lastmod>2025-03-12T08:42:04+00:00</lastmod>
+  <loc>https://hawkhorizon.com/service/seo-search-engine-optimization</loc>
+  <lastmod>2025-03-12T08:43:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
-  <loc>https://hawkhorizon.com/social-media-marketing</loc>
-  <lastmod>2025-03-12T08:43:46+00:00</lastmod>
+  <loc>https://hawkhorizon.com/service/social-media-marketing</loc>
+  <lastmod>2025-03-12T08:43:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
-  <loc>https://hawkhorizon.com/google-ads</loc>
-  <lastmod>2025-03-12T08:40:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/email-marketing</loc>
-  <lastmod>2025-03-12T08:39:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/graphic-designing</loc>
-  <lastmod>2025-03-12T08:41:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/content-writing</loc>
-  <lastmod>2025-03-12T08:38:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/google-my-business</loc>
-  <lastmod>2025-03-12T08:40:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/e-commerce-website</loc>
-  <lastmod>2025-03-12T08:39:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/contact</loc>
+  <loc>https://hawkhorizon.com/service/google-ads</loc>
   <lastmod>2025-03-12T08:35:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/project-details.html</loc>
+  <loc>https://hawkhorizon.com/service/email-marketing</loc>
   <lastmod>2025-02-25T23:28:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/blog-details.html</loc>
+  <loc>https://hawkhorizon.com/service/graphic-designing</loc>
   <lastmod>2025-02-25T23:28:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/team.html</loc>
+  <loc>https://hawkhorizon.com/service/content-writing</loc>
   <lastmod>2025-02-25T23:28:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/team-details.html</loc>
+  <loc>https://hawkhorizon.com/service/google-my-business</loc>
   <lastmod>2025-02-25T23:28:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://hawkhorizon.com/pricing.html</loc>
+  <loc>https://hawkhorizon.com/service/e-commerce-website</loc>
   <lastmod>2025-02-25T23:28:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://hawkhorizon.com/faq.html</loc>
-  <lastmod>2025-02-25T23:28:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/error.html</loc>
-  <lastmod>2025-02-25T23:28:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/blog-grid.html</loc>
-  <lastmod>2025-02-25T23:28:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://hawkhorizon.com/blog-grid-2.html</loc>
-  <lastmod>2025-02-25T23:28:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 
 
 </urlset>
