@@ -139,7 +139,7 @@
 </footer>
 
 
-<div id="theme-toogle" class="switcher-button">
+{{-- <div id="theme-toogle" class="switcher-button">
     <div class="switcher-button-inner-left"></div>
     <div class="switcher-button-inner"></div>
-</div>
+</div> --}}
