@@ -1,4 +1,8 @@
 @extends('layouts.master')
+<title>Top Rated SEO Agency in Pennsylvania (PA), USA</title>
+<meta name="title" content="Boost your rankings with the Top Rated SEO Agency in Pennsylvania (PA), USA. We offer expert SEO and search engine optimization services to grow your business">
+<meta name="description" content="Boost your rankings with the Top Rated SEO Agency in Pennsylvania (PA), USA. We offer expert SEO and search engine optimization services to grow your business">
+<meta name="keywords" content="Top Rated SEO Agency in Pennsylvania, Top Rated SEO Agency in (PA), Top Rated SEO Agency in USA">
 
 
 @section('main-container')

@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+<title>GMB Google My Business Services in Pennsylvania (PA), USA</title>
+<meta name="title" content="Boost local visibility with GMB Google My Business Services in Pennsylvania (PA) & USA. Optimize your listing, attract customers & grow your business online!">
+<meta name="description" content="Boost local visibility with GMB Google My Business Services in Pennsylvania (PA) & USA. Optimize your listing, attract customers & grow your business online!">
+<meta name="keywords" content="GMB Google My Business Services in Pennsylvania (PA), GMB Google My Business Services in USA">
 
 @section('main-container')
 

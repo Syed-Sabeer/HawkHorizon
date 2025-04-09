@@ -1,4 +1,8 @@
 @extends('layouts.master')
+<title>Ecommerce Website Development & Redesign in Pennsylvania (PA), USA</title>
+<meta name="title" content="Get expert Ecommerce Website Development & Redesign in Pennsylvania (PA) & USA. We build high-performing, user-friendly stores to boost sales & growth!">
+<meta name="description" content="Get expert Ecommerce Website Development & Redesign in Pennsylvania (PA) & USA. We build high-performing, user-friendly stores to boost sales & growth!">
+<meta name="keywords" content="Ecommerce Website Development & Redesign in Pennsylvania (PA), Ecommerce Website Development & Redesign in USA">
 
 
 @section('main-container')

@@ -1,4 +1,8 @@
 @extends('layouts.master')
+<title>Web Design & Development in Pennsylvania (PA), USA</title>
+<meta name="title" content="Get expert Web Design & Development in Pennsylvania (PA), USA. We create stunning, responsive websites tailored to your business needs. Contact us today">
+<meta name="description" content="Get expert Web Design & Development in Pennsylvania (PA), USA. We create stunning, responsive websites tailored to your business needs. Contact us today">
+<meta name="keywords" content="Web Design & Development in Pennsylvania, Web Design & Development in PA, Web Design & Development in USA">
 
 
 @section('main-container')

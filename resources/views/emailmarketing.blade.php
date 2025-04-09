@@ -1,4 +1,8 @@
 @extends('layouts.master')
+<title>Email Marketing Services in Pennsylvania (PA), USA</title>
+<meta name="title" content="Get results-driven Email Marketing Services in Pennsylvania (PA), USA. We craft engaging campaigns that boost conversions, retain customers & grow sales!">
+<meta name="description" content="Get results-driven Email Marketing Services in Pennsylvania (PA), USA. We craft engaging campaigns that boost conversions, retain customers & grow sales!">
+<meta name="keywords" content="Email Marketing Services in Pennsylvania (PA), Email Marketing Services in USA">
 
 
 @section('main-container')

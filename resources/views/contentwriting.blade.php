@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+<title>SEO Optimized Content Writing Services in Pennsylvania (PA), USA</title>
+<meta name="title" content="Boost rankings with SEO Optimized Content Writing Services in Pennsylvania (PA) & USA. We craft high-quality content to drive traffic & enhance engagement!">
+<meta name="description" content="Boost rankings with SEO Optimized Content Writing Services in Pennsylvania (PA) & USA. We craft high-quality content to drive traffic & enhance engagement!">
+<meta name="keywords" content="SEO Optimized Content Writing Services in Pennsylvania (PA), SEO Optimized Content Writing Services in USA">
 
 @section('main-container')
 

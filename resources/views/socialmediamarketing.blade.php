@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+<title>Social Media Marketing Agency in Pennsylvania (PA), USA</title>
+<meta name="title" content="Looking for a top Social Media Marketing Agency in Pennsylvania (PA) & the USA? We drive engagement, boost brand awareness & grow your business online!">
+<meta name="description" content="Looking for a top Social Media Marketing Agency in Pennsylvania (PA) & the USA? We drive engagement, boost brand awareness & grow your business online!">
+<meta name="keywords" content="Social Media Marketing Agency in Pennsylvania (PA), Social Media Marketing Agency in USA">
 
 @section('main-container')
 

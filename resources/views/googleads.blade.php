@@ -1,6 +1,10 @@
 
 @extends('layouts.master')
 
+<title>Google Ads & PPC Agency in Pennsylvania (PA), USA</title>
+<meta name="title" content="Boost your ROI with a top Google Ads & PPC Agency in Pennsylvania (PA), USA. We create data-driven campaigns to maximize leads, conversions, and growth!">
+<meta name="description" content="Boost your ROI with a top Google Ads & PPC Agency in Pennsylvania (PA), USA. We create data-driven campaigns to maximize leads, conversions, and growth!">
+<meta name="keywords" content="Google Ads & PPC Agency in Pennsylvania (PA), Google Ads & PPC Agency in USA">
 
 @section('main-container')
 
