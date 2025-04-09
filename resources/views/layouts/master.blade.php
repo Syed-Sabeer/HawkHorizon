@@ -66,23 +66,26 @@
         <div id="smooth-content">
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
-                    let startScroll = document.body.scrollHeight * 0.005;
-                    
-                    // Start at the very top first
-                    window.scrollTo(0, 0);
-                    
-                    // Then move to 2% after a slight delay
-                    setTimeout(() => {
-                        window.scrollTo(0, startScroll);
-                    }, 100);
-        
-                    window.addEventListener("scroll", function () {
-                        if (window.scrollY < startScroll) {
+                    if (window.innerWidth >= 425) {
+                        let startScroll = document.body.scrollHeight * 0.005;
+            
+                        // Start at the very top first
+                        window.scrollTo(0, 0);
+            
+                        // Then move to 0.5% after a slight delay
+                        setTimeout(() => {
                             window.scrollTo(0, startScroll);
-                        }
-                    });
+                        }, 100);
+            
+                        window.addEventListener("scroll", function () {
+                            if (window.scrollY < startScroll) {
+                                window.scrollTo(0, startScroll);
+                            }
+                        });
+                    }
                 });
             </script>
+            
     @yield('main-container')
 
 

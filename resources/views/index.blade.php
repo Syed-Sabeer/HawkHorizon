@@ -153,30 +153,6 @@
             </script>
             
 
-            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script>
-            var myCarousel = new bootstrap.Carousel(document.querySelector('#textCarousel'), {
-                interval: 4000, // Smooth slide every 3 seconds
-                ride: 'carousel',
-                wrap: true // Loop enabled
-            });
-        </script> -->
-
-
-
-
-
-
-
-
-            <!-- <div class="running-text running-4 mt-5">
-                <div class="carouselTicker carouselTicker-nav" data-speed="fast">
-                    <ul class="text-anim carouselTicker__list scroller__inner inner-3">
-                        <li>Creative Agency</li>
-                        <li>Web Development</li>
-                    </ul>
-                </div>
-            </div> -->
 
             <div class="running-text running-3  mt-5">
                 <div class="bg-img" data-background="{{ asset('assets/img/bg-img/running-bg.jpg')}}"></div>
@@ -196,10 +172,6 @@
 
 
 
-
-
-            <!-- ./ about-section -->
-            <!-- yahan past -->
 
             <section class="about-section-2 pt-130 pb-130">
                 <div class="container">
@@ -624,10 +596,12 @@
 
 
 
-            <section class="section_service-item">
+            {{-- <section class="section_service-item">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="padding-section-large">
+
+
 
                             <!-- // 1 //  -->
                              <div class="w-layout-grid services-item_component grid-sizes">
@@ -641,48 +615,7 @@
                                     <div class="right-content-wrapper">
 
                                         <img src="{{ asset('assets/img/new-update/project-img-5.png')}}" alt="img" style="height: 400px;">
-                                        <!-- <div class="margin-bottom margin-xsmall">
-                                            <h2 text-split="" words-slide-from-right=""
-                                                class="heading-style-h2 text-weight-medium text-style-allcaps mobile-text-6-5vw services_headingH2 "
-                                                style="opacity: 1;"> <span class="word"
-                                                    style="display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span
-                                                        class="char" style="display: inline-block;">E</span><span
-                                                        class="char" style="display: inline-block;">v</span><span
-                                                        class="char" style="display: inline-block;">a</span><span
-                                                        class="char" style="display: inline-block;">l</span><span
-                                                        class="char" style="display: inline-block;">u</span><span
-                                                        class="char" style="display: inline-block;">a</span><span
-                                                        class="char" style="display: inline-block;">t</span><span
-                                                        class="char" style="display: inline-block;">i</span><span
-                                                        class="char" style="display: inline-block;">o</span><span
-                                                        class="char" style="display: inline-block;">n</span></span>
-                                                <span class="text-span-98"
-                                                    style="display: inline-block; position: relative;"><span
-                                                        class="word"
-                                                        style="display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span
-                                                            class="char"
-                                                            style="display: inline-block;">&amp;</span></span> </span>
-                                                <span class="word"
-                                                    style="display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span
-                                                        class="char" style="display: inline-block;">D</span><span
-                                                        class="char" style="display: inline-block;">e</span><span
-                                                        class="char" style="display: inline-block;">s</span><span
-                                                        class="char" style="display: inline-block;">i</span><span
-                                                        class="char" style="display: inline-block;">g</span><span
-                                                        class="char" style="display: inline-block;">n</span></span></h2>
-                                        </div>
-                                        <div data-w-id="3f4b444b-3f85-73c3-bd65-5ef687c20a61"
-                                            class="service-intro-wrapper">
-                                            <p class="text-size-regular text-weight-medium servicesParatext">Transform
-                                                your ideas into reality with our evaluation and design services. Our
-                                                expert designers and analysts collaborate to assess your project
-                                                requirements, conduct thorough research, and develop user-centric
-                                                designs that maximize usability and customer satisfaction.</p>
-                                            <div id="w-node-_1d3638ad-0162-b524-baa6-dfe51649420c-7cf0066e"
-                                                data-w-id="1d3638ad-0162-b524-baa6-dfe51649420c"
-                                                class="button-wrapper-horizontal">
-                                            </div>
-                                        </div> -->
+                                 
                                     </div>
                                 </div>
                                 <div class="service-layout_content-right">
@@ -780,85 +713,7 @@
                                                 </div>
 
                                             </div>
-                                            <div data-w-id="f77678c4-ddc4-5a74-096f-a653907ad852"
-                                                class="services_accordion">
-                                                <div data-w-id="cc6ecc1f-ce48-e017-5901-a238b2d66c38" style="width:100%"
-                                                    class="line-divider is-dark-grey"></div>
-                                                <div data-w-id="f77678c4-ddc4-5a74-096f-a653907ad853"
-                                                    class="services_question">
-                                                    <h4>Business Scoping Session</h4>
-                                                    <div class="services_icon w-embed" style="">
-                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                            aria-hidden="true" role="img" class="iconify iconify--ph"
-                                                            width="100%" height="100%"
-                                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
-                                                            <path fill="currentColor"
-                                                                d="M128 24a104 104 0 1 0 104 104A104.1 104.1 0 0 0 128 24Zm40 112h-32v32a8 8 0 0 1-16 0v-32H88a8 8 0 0 1 0-16h32V88a8 8 0 0 1 16 0v32h32a8 8 0 0 1 0 16Z">
-                                                            </path>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="services_icon w-embed" style="display: none;">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                                                            height="100%" viewBox="0 0 256 256">
-                                                            <path fill="currentColor"
-                                                                d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m40 112H88a8 8 0 0 1 0-16h80a8 8 0 0 1 0 16">
-                                                            </path>
-                                                        </svg>
-
-                                                    </div>
-                                                </div>
-                                                <div style="width: 100%; height: 0px; transition: 400ms linear;"
-                                                    class="services_answer">
-                                                    <div class="margin-bottom margin-small">
-                                                        <div class="max-width-large">
-                                                            <p class="text-size-regular max-width-medium mobile-max-width-small"> Do you need a clear roadmap for your project? A business scoping session helps define goals, streamline strategies, and align your vision with actionable steps. Our experts specialize in analyzing requirements, identifying challenges, and crafting data-driven solutions to set your project up for success. Whether you're refining an existing strategy or building from the ground up, we provide the insights needed to move forward with confidence. </p>
-                                                    </div>
-                                                    <div class="button-group" style="margin-bottom: 20px;">
-                                                        <div data-w-id="1d3638ad-0162-b524-baa6-dfe516494217"
-                                                            class="button-wrapper">
-                                                            <a href="./business-scoping-session"
-                                                                class="button is-small is-icon is-button-grey w-inline-block">
-                                                                <div class="text-block-2">Learn more</div>
-                                                                <div class="icon-wrapper">
-                                                                    <div
-                                                                        class="button-icon-wrapper icon-secondary is-icon-wraper-grey icon-border-dark">
-                                                                        <div class="icon-embed-xsmall w-embed">
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                aria-hidden="true" role="img"
-                                                                                class="iconify iconify--tabler"
-                                                                                width="100%" height="100%"
-                                                                                preserveAspectRatio="xMidYMid meet"
-                                                                                viewBox="0 0 24 24">
-                                                                                <path fill="none" stroke="currentColor"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round"
-                                                                                    stroke-width="2"
-                                                                                    d="M5 12h14m-6 6l6-6m-6-6l6 6">
-                                                                                </path>
-                                                                            </svg>
-                                                                        </div>
-                                                                        <div class="icon-embed-xsmall w-embed">
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                aria-hidden="true" role="img"
-                                                                                class="iconify iconify--ph" width="100%"
-                                                                                height="100%"
-                                                                                preserveAspectRatio="xMidYMid meet"
-                                                                                viewBox="0 0 256 256">
-                                                                                <path fill="currentColor"
-                                                                                    d="M247.3 124.8c-.3-.8-8.8-19.6-27.6-38.5C194.6 61.3 162.9 48 128 48S61.4 61.3 36.3 86.3C17.5 105.2 9 124 8.7 124.8a7.9 7.9 0 0 0 0 6.4c.3.8 8.8 19.6 27.6 38.5c25.1 25 56.8 38.3 91.7 38.3s66.6-13.3 91.7-38.3c18.8-18.9 27.3-37.7 27.6-38.5a7.9 7.9 0 0 0 0-6.4ZM128 192c-30.8 0-57.7-11.2-79.9-33.3A130.3 130.3 0 0 1 25 128a130.3 130.3 0 0 1 23.1-30.8C70.3 75.2 97.2 64 128 64s57.7 11.2 79.9 33.2A130.3 130.3 0 0 1 231 128c-7.2 13.5-38.6 64-103 64Zm0-112a48 48 0 1 0 48 48a48 48 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32.1 32.1 0 0 1-32 32Z">
-                                                                                </path>
-                                                                            </svg>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <div data-w-id="f77678c4-ddc4-5a74-096f-a653907ad85c"
                                                 class="services_accordion">
                                                 <div data-w-id="ed96d996-538f-7ef8-3b2c-4ea21a226f40" style="width:100%"
@@ -1185,6 +1040,16 @@
                             </div>
 
 
+
+
+
+
+                             </div>
+                            </div>
+                        </div>
+                    </section> --}}
+
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const accordions = document.querySelectorAll(".services_accordion");
@@ -1219,90 +1084,162 @@
 
 
 
+<style>
+    .carousel-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        padding: 20px;
+    }
 
+    .carousel {
+        display: flex;
+        gap: 15px;
+        transition: transform 0.5s ease-in-out;
+    }
 
+    .card {
+        width: 30%;
+        height: 400px;
+        transition: all 0.4s ease-in-out;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        flex-shrink: 0;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        background: #fff;
+    }
 
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
 
-        <style>
-            .carousel-container {
-                width: 80%;
-                overflow: hidden;
-                position: relative;
-            }
-            .carousel {
-                display: flex;
-                gap: 15px;
-                transition: transform 0.5s ease-in-out;
-            }
-            .card {
-                width: 30%;
-                height: 400px;
-                transition: all 0.4s ease-in-out;
-                position: relative;
-                overflow: hidden;
-                border-radius: 20px;
-                flex-shrink: 0;
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-                background: #fff;
-            }
-            .card img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 20px;
-            }
-            .card-content {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                background: rgba(0, 0, 0, 0.6);
-                color: white;
-                padding: 15px;
-                text-align: center;
-                transition: all 0.3s ease-in-out;
-            }
-            .card-content span {
-                font-size: 18px;
-                font-weight: bold;
-            }
-            .card-content h3 {
-                font-size: 22px;
-                margin: 8px 0;
-            }
-            .card-content a {
-                display: inline-block;
-                background: #3F5AF3;
-                color: #fff;
-                text-decoration: none;
-                font-weight: bold;
-                padding: 10px 18px;
-                border-radius: 8px;
-                transition: all 0.3s ease-in-out;
-                box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
-            }
-            .card-content a:hover {
-                background: #3F5AF3;
-                transform: scale(1.1);
-            }
-        
-            /* Hover Effect */
-            .card:hover {
-                width: 35%; /* Increase width */
-                transform: scale(1.2) translateY(-10px); /* Pop out effect */
-                z-index: 2;
-                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
-            }
-            .carousel:hover .card:not(:hover) {
-                width: 25%; /* Reduce width */
-                filter: blur(5px);
-                opacity: 0.6;
-                transform: scale(0.9);
-            }
-        </style>
-                
-    </head>
-    <body>
+    .card-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 15px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-content span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .card-content h3 {
+        font-size: 22px;
+        margin: 8px 0;
+    }
+
+    .card-content a {
+        display: inline-block;
+        background: #3F5AF3;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 18px;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+    }
+
+    .card-content a:hover {
+        background: #3F5AF3;
+        transform: scale(1.1);
+    }
+
+    .card:hover {
+        width: 35%;
+        transform: scale(1.1) translateY(-10px);
+        z-index: 2;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .carousel:hover .card:not(:hover) {
+        width: 25%;
+        filter: blur(5px);
+        opacity: 0.6;
+        transform: scale(0.9);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 1024px) {
+        .card {
+            width: 45%;
+            height: 350px;
+        }
+
+        .card:hover {
+            width: 50%;
+        }
+
+        .carousel:hover .card:not(:hover) {
+            width: 40%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .card {
+            width: 80%;
+            height: 300px;
+        }
+
+        .card:hover {
+            width: 85%;
+        }
+
+        .carousel:hover .card:not(:hover) {
+            width: 75%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .carousel {
+            gap: 10px;
+        }
+
+        .card {
+            width: 100%;
+            height: 280px;
+        }
+
+        .card:hover {
+            transform: none;
+            width: 100%;
+        }
+
+        .carousel:hover .card:not(:hover) {
+            filter: none;
+            opacity: 1;
+            transform: none;
+        }
+
+        .card-content h3 {
+            font-size: 18px;
+        }
+
+        .card-content span {
+            font-size: 16px;
+        }
+
+        .card-content a {
+            padding: 8px 14px;
+            font-size: 14px;
+        }
+    }
+</style>
+
+               
         <div class="carousel-container container">
             <div class="carousel" id="carousel">
                 <div class="card">
@@ -1377,76 +1314,7 @@
         </script>
 
 
-            <!-- <section class="project-section pt-130 pb-130 overflow-hidden">
-                <div class="project-container">
-                 
-                    <div class="project-carousel-2 swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <div class="overlay"></div>
-                                        <img src="assets/img/project/project-carousel-2.jpg" alt="project">
-                                    </div>
-                                    <div class="project-content">
-                                        <span>Creative App Design</span>
-                                        <h3 class="title"><a href="project-details">Medical Website Development</a>
-                                        </h3>
-                                        <a href="project-details" class="view-btn">View Details <i
-                                                class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="project-details"><i class="fa-light fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <div class="overlay"></div>
-                                        <img src="assets/img/project/project-carousel-1.jpg" alt="project">
-                                    </div>
-                                    <div class="project-content">
-                                        <span>Creative App Design</span>
-                                        <h3 class="title"><a href="project-details">Social Media Integration</a>
-                                        </h3>
-                                        <a href="project-details" class="view-btn">View Details <i
-                                                class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="project-details"><i class="fa-light fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="project-card">
-                                    <div class="project-img">
-                                        <div class="overlay"></div>
-                                        <img src="assets/img/project/project-carousel-3.jpg" alt="project">
-                                    </div>
-                                    <div class="project-content">
-                                        <span>Creative App Design</span>
-                                        <h3 class="title"><a href="project-details">User Interface Design</a></h3>
-                                        <a href="project-details" class="view-btn">View Details <i
-                                                class="fa-sharp fa-regular fa-arrow-right"></i></a>
-                                    </div>
-                                    <div class="arrow">
-                                        <a href="project-details"><i class="fa-light fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-
-
-
-            <!-- ./ project-section -->
-
-
-
+            
 
 
             <section class="request-section pt-130">
@@ -1547,16 +1415,7 @@
 
             <section class="testimonial-section-4 testimonial-section-9 pt-130 pb-130">
                 <div class="testi-bg-img" data-background="assets/img/bg-img/testi-bg-2.png"></div>
-                <!-- <div class="testi-text-running">
-                    <div class="running-text running-4 mb-30">
-                        <div class="carouselTicker carouselTicker-nav" data-speed="fast">
-                            <ul class="text-anim carouselTicker__list scroller__inner inner-3">
-                                <li>Creative Agency</li>
-                                <li>Web Development</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
+               
                 
                 <div class="container">
                     <div class="row gy-lg-0 gy-4 align-items-center">
@@ -1615,8 +1474,6 @@
                 </div>
             </section>
             <!-- ./ testimonial-section -->
-
-
 
 
             <section class="blog-section-9 pt-130 pb-130 fade-wrapper">
@@ -1764,18 +1621,8 @@
 
 
 
-            <!-- new add footer -->
-
-
            
         
-
-
-
-   
-
-
-
 
     <script>
 
@@ -1818,10 +1665,6 @@
             cloneItems();
         });
         </script>
-
-
-
-
 
         <script>
             document.addEventListener("DOMContentLoaded", function () {
