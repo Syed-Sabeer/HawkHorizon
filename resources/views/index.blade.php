@@ -1,5 +1,8 @@
 @extends('layouts.master')
-
+<title>Digital Marketing Agency in Pennsylvania (PA), USA</title>
+    <meta name="title" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
+    <meta name="description" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
+    <meta name="keywords" content="Digital Marketing Agency in Pennsylvania, Digital Marketing Agency in PA, Digital Marketing Agency in USA">
 
 @section('main-container')
 
