@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Digital Marketing Agency in Pennsylvania (PA), USA')
+{{-- @section('title', '') --}}
+<title>Digital Marketing Agency in Pennsylvania (PA), USA</title>
 
-@section('meta')
     <meta name="title" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
     <meta name="description" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
     <meta name="keywords" content="Digital Marketing Agency in Pennsylvania, Digital Marketing Agency in PA, Digital Marketing Agency in USA">
-@endsection
+
 
 @section('main-container')
 

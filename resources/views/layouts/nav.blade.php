@@ -161,7 +161,7 @@
             <ul class="side-menu-list">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <p>For GMB 7901 4TH ST N STE 19630 ST. PETERSBURG, FL. US 33702 </p>
+                    <p>7901 4TH ST N STE 19630 ST. PETERSBURG, FL. US 33702 </p>
                 </li>
                 <li>
                     <i class="fas fa-phone"></i>

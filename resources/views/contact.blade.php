@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="title">Florida Office</h4>
-                                    <p>For GMB 7901 4TH ST N STE 19630 ST. PETERSBURG, FL. US 33702</p>
+                                    <p>7901 4TH ST N STE 19630 ST. PETERSBURG, FL. US 33702</p>
                                 </div>
                             </div>
                             <div class="list-item">

@@ -1,0 +1,164 @@
+/* Service Details Responsive Styles */
+.service-details {
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+    background-color: var(--rr-color-bg-1);
+}
+
+.service-details-img {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.service-details-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.service-details-content {
+    position: relative;
+    z-index: 2;
+}
+
+.service-details-content .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--rr-color-common-white);
+}
+
+.service-details-content p {
+    color: var(--rr-color-text-body);
+    margin-bottom: 30px;
+}
+
+.service-details-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.service-details-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.service-details-item .icon {
+    margin-bottom: 20px;
+    color: var(--rr-color-theme-primary);
+}
+
+.service-details-item .content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--rr-color-common-white);
+}
+
+.service-details-item .content p {
+    color: var(--rr-color-text-body);
+    margin-bottom: 0;
+}
+
+/* Page Header Styles */
+.page-header {
+    position: relative;
+    padding: 120px 0;
+    background-color: var(--rr-color-bg-1);
+    z-index: 1;
+}
+
+.page-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.page-header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.page-header-content .title {
+    color: var(--rr-color-common-white);
+    margin-bottom: 15px;
+}
+
+.page-header-content .sub-title {
+    color: var(--rr-color-text-body);
+}
+
+.page-header-content .sub-title a {
+    color: var(--rr-color-text-body);
+    transition: color 0.3s ease;
+}
+
+.page-header-content .sub-title a:hover {
+    color: var(--rr-color-theme-primary);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 991px) {
+    .service-details {
+        padding: 60px 0;
+    }
+    
+    .service-details-content .title {
+        font-size: 30px;
+    }
+
+    .page-header {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-details {
+        padding: 40px 0;
+    }
+    
+    .service-details-content .title {
+        font-size: 24px;
+    }
+    
+    .service-details-item {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .service-details-item .content h3 {
+        font-size: 20px;
+    }
+    
+    .service-details-img {
+        margin-bottom: 20px;
+    }
+
+    .page-header {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .service-details-content .title {
+        font-size: 22px;
+    }
+    
+    .service-details p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .page-header {
+        padding: 40px 0;
+    }
+} 
