@@ -6,7 +6,11 @@
 
 @section('main-container')
 
-
+<style>
+    .learn-more{
+        margin-right: 15px;
+    }
+</style>
 
     
 
@@ -172,6 +176,7 @@
                     </ul>
                 </div>
             </div>
+            
 
 
 
@@ -202,7 +207,7 @@
                                         The Hawk Horizon Digital Difference.</h2>
                                     <p>
                                         At Hawk Horizon Digital, we understand that every business is unique and
-                                        requires a tailored marketing approach. That’s why we take the time to analyze
+                                        requires a tailored marketing approach. That's why we take the time to analyze
                                         your business, goals, and target audience to craft a personalized strategy that
                                         drives results. Our team of experts stays ahead of industry trends and
                                         innovations, ensuring your business maintains a competitive edge. With our
@@ -220,7 +225,7 @@
                                     <div class="about-item">
                                         <div class="icon"><img src="{{ asset('assets/img/icon/about-2.png')}}" alt="icon"></div>
                                         <div class="content">
-                                            <h4 class="title">Provide Market Standard <br>Service to Client’s</h4>
+                                            <h4 class="title">Provide Market Standard <br>Service to Client's</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -336,7 +341,7 @@
                                     <div class="accordion-body">
                                         <div class="hover-content">
                                             <div class="content-left">
-                                                <p>Boost your website’s visibility and attract your ideal customers with
+                                                <p>Boost your website's visibility and attract your ideal customers with
                                                     our expert SEO services. We optimize your site and content to
                                                     improve search rankings and drive organic traffic.</p>
                                                 <a href="seo-search-engine-optimization" class="rr-primary-btn">View Details<i
@@ -369,7 +374,7 @@
 
             <section class="process-section-3 pt-130 pb-130" data-background="{{ asset('assets/img/bg-img/process-bg.png')}}">
                 <div class="container">
-                    <div class="section-heading heading-3 text-center">
+                    <div class="section-heading heading-3 text-center mb-5">
                         <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5">Our Work Process</h4>
                         <h2 class="section-title" data-text-animation data-split="word" data-duration="1">Quality
                             Service For Growth <br> Your Branding Identity</h2>
@@ -505,8 +510,11 @@
                     </div>
                 </div>
             </section>
+
             <!-- ./ process-section -->
 
+            <!-- Clear separation between sections -->
+            <div class="section-separator" style="height: 50px;"></div>
 
             <section class="process-section-3 pt-130 pb-130 bd-bottom">
                 <div class="container">
@@ -519,6 +527,8 @@
                 </div>
             </section>
 
+            <!-- Clear separation between sections -->
+            <div class="section-separator" style="height: 50px;"></div>
 
             <section class="service-section-6 pt-130 pb-130">
                 <div class="container">
@@ -527,7 +537,7 @@
                             <div class="service-left-area fade-wrapper sticky-widget">
                                 <div class="section-heading mb-30">
                                     <h4 class="sub-heading after-none" data-text-animation="fade-in" data-duration="1.5">What We Provide</h4>
-                                    <h5>Quality Service For Growth Your Branding Identity</h5>
+                                    <h5 class="mt-4">Quality Service For Growth Your Branding Identity</h5>
                                 </div>
                                 <p class="fade-top">Digital agency companies cater to businesses of all sizes and industries, from startups and small businesses to large enterprises. </p>
                                 <div class="service-content-btn mt-40 fade-top">
@@ -546,7 +556,7 @@
                                         <img src="{{ asset('assets/img/icon/service-icon-1.png')}}" alt="service">
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="graphic-designing">Digital Strategy Planning</a></h4>
+                                        <h4 class="title"><a href="graphic-designing">E-commerce B2C & B2B</a></h4>
                                         <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -559,7 +569,7 @@
                                         <img src="{{ asset('assets/img/icon/service-icon-2.png')}}" alt="service">
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="web-design-development">Custom Website Design</a></h4>
+                                        <h4 class="title"><a href="web-design-development">Transportation & Logistics</a></h4>
                                         <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -572,7 +582,7 @@
                                         <img src="{{ asset('assets/img/icon/service-icon-3.png')}}" alt="service">
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="seo-search-engine-optimization">Landing Optimization</a></h4>
+                                        <h4 class="title"><a href="seo-search-engine-optimization">Real Estate & Property Management</a></h4>
                                         <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -585,10 +595,52 @@
                                         <img src="{{ asset('assets/img/icon/service-icon-4.png')}}" alt="service">
                                     </div>
                                     <div class="content">
-                                        <h4 class="title"><a href="content-writing">Content Management</a></h4>
+                                        <h4 class="title"><a href="content-writing">Health Care</a></h4>
                                         <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
                                     </div>
                                 </div>
+
+
+                                <div class="service-card-2 fade-top">
+                                    <div class="shape">
+                                        <img class="dark-img" src="{{ asset('assets/img/shapes/service-card-shape.png')}}" alt="shape">
+                                        <img class="light-img" src="{{ asset('assets/img/shapes/service-card-shape-light.png')}}" alt="shape">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="{{ asset('assets/img/icon/service-icon-4.png')}}" alt="service">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="content-writing">FinTech</a></h4>
+                                        <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="service-card-2 fade-top">
+                                    <div class="shape">
+                                        <img class="dark-img" src="{{ asset('assets/img/shapes/service-card-shape.png')}}" alt="shape">
+                                        <img class="light-img" src="{{ asset('assets/img/shapes/service-card-shape-light.png')}}" alt="shape">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="{{ asset('assets/img/icon/service-icon-4.png')}}" alt="service">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="content-writing">Education</a></h4>
+                                        <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="service-card-2 fade-top">
+                                    <div class="shape">
+                                        <img class="dark-img" src="{{ asset('assets/img/shapes/service-card-shape.png')}}" alt="shape">
+                                        <img class="light-img" src="{{ asset('assets/img/shapes/service-card-shape-light.png')}}" alt="shape">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="{{ asset('assets/img/icon/service-icon-4.png')}}" alt="service">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="content-writing">Service based businesses</a></h4>
+                                        <a href="#" class="learn-more">Learn More <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -599,7 +651,7 @@
 
 
 
-            {{-- <section class="section_service-item">
+            <section class="section_service-item">
                 <div class="padding-global">
                     <div class="container-large">
                         <div class="padding-section-large">
@@ -660,10 +712,10 @@
                                                     <div class="margin-bottom margin-small">
                                                         <div class="max-width-large">
                                                             <p class="text-size-regular max-width-medium mobile-max-width-small">
-                                                                At the core of every innovative project lies a deep understanding of the client’s vision and their audience. Our approach to research and development focuses on crafting tailored solutions that align with unique business objectives and user needs.
-                                                                <br> <br>We recognize that in today’s fast-paced digital landscape, adaptability is key. 
-                                                                That’s why we emphasize cutting-edge technologies and user-centric methodologies to create seamless,
-                                                                high-performing experiences. Whether it’s web, mobile, or emerging platforms, our R&D process ensures 
+                                                                At the core of every innovative project lies a deep understanding of the client's vision and their audience. Our approach to research and development focuses on crafting tailored solutions that align with unique business objectives and user needs.
+                                                                <br> <br>We recognize that in today's fast-paced digital landscape, adaptability is key. 
+                                                                That's why we emphasize cutting-edge technologies and user-centric methodologies to create seamless,
+                                                                high-performing experiences. Whether it's web, mobile, or emerging platforms, our R&D process ensures 
                                                                 solutions that are optimized, efficient, and future-ready. If you're seeking a partner who values innovation 
                                                                 and user satisfaction, we are here to bring your ideas to life.
                                                             </p>
@@ -909,7 +961,7 @@
                                                     class="services_answer">
                                                     <div class="margin-bottom margin-small">
                                                         <div class="max-width-large">
-                                                            <p class="text-size-regular max-width-medium mobile-max-width-small"> Your brand is more than just a logo—it’s the story, emotion, and experience behind your business. Our brand design services help you establish a strong visual identity that resonates with your audience. From logo creation and typography to color schemes and brand guidelines, we craft cohesive and memorable designs that leave a lasting impression. Whether you're launching a new brand or refreshing your existing identity, our team ensures your brand stands out with authenticity and impact. </p>
+                                                            <p class="text-size-regular max-width-medium mobile-max-width-small"> Your brand is more than just a logo—it's the story, emotion, and experience behind your business. Our brand design services help you establish a strong visual identity that resonates with your audience. From logo creation and typography to color schemes and brand guidelines, we craft cohesive and memorable designs that leave a lasting impression. Whether you're launching a new brand or refreshing your existing identity, our team ensures your brand stands out with authenticity and impact. </p>
                                                         </div>
                                                     </div>
                                                     <div class="button-group" style="margin-bottom: 20px;">
@@ -1050,35 +1102,30 @@
                              </div>
                             </div>
                         </div>
-                    </section> --}}
+                    </section>
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const accordions = document.querySelectorAll(".services_accordion");
-    
-        accordions.forEach((accordion) => {
-            const question = accordion.querySelector(".services_question");
-            const answer = accordion.querySelector(".services_answer");
-    
-            question.addEventListener("click", function () {
-                const isActive = answer.classList.contains("open");
-    
-                // Close all accordions first
-                accordions.forEach((item) => {
-                    item.querySelector(".services_answer").classList.remove("open");
-                    item.querySelector(".services_answer").style.height = "0px";
-                });
-    
-                // If it wasn't already open, open it
-                if (!isActive) {
-                    answer.classList.add("open");
-                    answer.style.height = answer.scrollHeight + "px";
-                }
-            });
-    
-            // Ensure all are closed at start
+    document.addEventListener("DOMContentLoaded", function() {
+        // Service Accordion
+        const serviceQuestions = document.querySelectorAll('.services_question');
+        serviceQuestions.forEach((svc) => {
+            const answer = svc.nextElementSibling;
             answer.style.height = "0px";
+
+            svc.addEventListener('click', () => {
+                const isOpen = answer.style.height !== "0px";
+                
+                // Close all other accordions
+                serviceQuestions.forEach((otherSvc) => {
+                    if (otherSvc !== svc) {
+                        otherSvc.nextElementSibling.style.height = "0px";
+                    }
+                });
+
+                // Toggle current accordion
+                answer.style.height = isOpen ? "0px" : answer.scrollHeight + "px";
+            });
         });
     });
     
@@ -1246,51 +1293,66 @@
         <div class="carousel-container container">
             <div class="carousel" id="carousel">
                 <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="project">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
                     <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>Medical Website Development</h3>
+                        <span>App Design & Development </span>
+                        {{-- <h3>Medical Website Development</h3> --}}
                         <a href="project-details">✨ View Details ✨</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-1.jpg')}}" alt="project">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
                     <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>Social Media Integration</h3>
+                        <span>Web Design & Development</span>
+                        {{-- <h3>Medical Website Development</h3> --}}
                         <a href="project-details">✨ View Details ✨</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-3.jpg')}}" alt="project">
+                    <img src="{{ asset('assets/img/project/project-carousel-1.jpg')}}" alt="Social Media Integration Project">
                     <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>User Interface Design</h3>
-                        <a href="project-details">✨ View Details ✨</a>
-                    </div>
-                </div>
-    
-                <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="project">
-                    <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>Medical Website Development</h3>
+                        <span>Logo & Branding</span>
+                        {{-- <h3>Social Media Integration</h3> --}}
                         <a href="project-details">✨ View Details ✨</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-1.jpg')}}" alt="project">
+                    <img src="{{ asset('assets/img/project/project-carousel-3.jpg')}}" alt="User Interface Design Project">
                     <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>Social Media Integration</h3>
+                        <span>AI Automation & Chatbots</span>
+                        {{-- <h3>User Interface Design</h3> --}}
                         <a href="project-details">✨ View Details ✨</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('assets/img/project/project-carousel-3.jpg')}}" alt="project">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
                     <div class="card-content">
-                        <span>Creative App Design</span>
-                        <h3>User Interface Design</h3>
+                        <span>SEO & ChatGPT Optimization</span>
+                        {{-- <h3>Medical Website Development</h3> --}}
+                        <a href="project-details">✨ View Details ✨</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
+                    <div class="card-content">
+                        <span>Social Media Marketing</span>
+                        {{-- <h3>Medical Website Development</h3> --}}
+                        <a href="project-details">✨ View Details ✨</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
+                    <div class="card-content">
+                        <span>Maintenance & Support</span>
+                        {{-- <h3>Medical Website Development</h3> --}}
+                        <a href="project-details">✨ View Details ✨</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('assets/img/project/project-carousel-2.jpg')}}" alt="Medical Website Development Project">
+                    <div class="card-content">
+                        <span>Hosting & Servers</span>
+                        {{-- <h3>Medical Website Development</h3> --}}
                         <a href="project-details">✨ View Details ✨</a>
                     </div>
                 </div>
@@ -1298,22 +1360,32 @@
         </div>
         
         <script>
-            let index = 0;
-            function updateCarousel() {
+            document.addEventListener("DOMContentLoaded", function() {
                 const carousel = document.getElementById('carousel');
-                const cardWidth = document.querySelector('.card').offsetWidth + 10; // Include gap
-                carousel.style.transform = `translateX(-${index * cardWidth}px)`;
-            }
-            function autoSlide() {
-                const totalCards = document.querySelectorAll('.card').length;
-                if (index < totalCards - 3) {
-                    index++;
-                } else {
-                    index = 0;
+                const cards = document.querySelectorAll('.card');
+                let currentIndex = 0;
+                const cardWidth = cards[0].offsetWidth + 15; // Include gap
+                
+                function updateCarousel() {
+                    carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
                 }
+                
+                function autoSlide() {
+                    currentIndex = (currentIndex + 1) % cards.length;
+                    updateCarousel();
+                }
+                
+                // Initialize carousel
                 updateCarousel();
-            }
-            setInterval(autoSlide, 3000); // Change slide every 3 seconds
+                
+                // Start auto-sliding
+                const slideInterval = setInterval(autoSlide, 3000);
+                
+                // Cleanup on page unload
+                window.addEventListener('unload', () => {
+                    clearInterval(slideInterval);
+                });
+            });
         </script>
 
 
@@ -1332,20 +1404,21 @@
                                         data-duration="0.6" data-stagger="0.03">Request a free quote</h2>
                                 </div>
                                 <div class="request-form fade-wrapper">
-                                    <form action="{{ route('mail')}}">
+                                    <form action="{{ route('mail')}}" method="POST">
+                                        @csrf
                                         <div class="form-group row">
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="fullname">First Name (required)</label>
                                                     <input type="text" id="fullname" name="fullname"
-                                                        class="form-control" placeholder="Your First Name*">
+                                                        class="form-control" placeholder="Your First Name*" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="lastname">Last Name (required)</label>
                                                     <input type="text" id="lastname" name="lastname"
-                                                        class="form-control" placeholder="Your Last Name*">
+                                                        class="form-control" placeholder="Your Last Name*" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -1353,15 +1426,15 @@
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="email">Company Email (required)</label>
-                                                    <input type="text" id="email" name="email" class="form-control"
-                                                        placeholder="Company Email*">
+                                                    <input type="email" id="email" name="email" class="form-control"
+                                                        placeholder="Company Email*" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="company">Company Name (required)</label>
                                                     <input type="text" id="company" name="company" class="form-control"
-                                                        placeholder="Company Name*">
+                                                        placeholder="Company Name*" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -1369,20 +1442,25 @@
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="url">Company URL (required)</label>
-                                                    <input type="text" id="url" name="url" class="form-control"
-                                                        placeholder="Company URL*">
+                                                    <input type="url" id="url" name="url" class="form-control"
+                                                        placeholder="Company URL*" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 fade-top">
                                                 <div class="form-item">
                                                     <label for="select">Select Topic (required)</label>
-                                                    <input type="text" id="select" name="topic" class="form-control"
-                                                        placeholder="Select Your Topic*">
+                                                    <select id="select" name="topic" class="form-control" required>
+                                                        <option value="">Select Your Topic*</option>
+                                                        <option value="Web Development">Web Development</option>
+                                                        <option value="Digital Marketing">Digital Marketing</option>
+                                                        <option value="UI/UX Design">UI/UX Design</option>
+                                                        <option value="SEO">SEO</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-btn fade-top">
-                                            <button class="rr-primary-btn">Get a Quote <i class="fa-sharp fa-regular fa-arrow-right"></i></button>
+                                            <button type="submit" class="rr-primary-btn">Get a Quote <i class="fa-sharp fa-regular fa-arrow-right"></i></button>
                                         </div>
                                     </form>
                                 </div>
@@ -1418,13 +1496,11 @@
 
             <section class="testimonial-section-4 testimonial-section-9 pt-130 pb-130">
                 <div class="testi-bg-img" data-background="assets/img/bg-img/testi-bg-2.png"></div>
-               
-                
                 <div class="container">
                     <div class="row gy-lg-0 gy-4 align-items-center">
                         <div class="col-lg-6">
                             <div class="testi-img-6 reveal">
-                                <img src="{{ asset('assets/img/images/testi-img-3.png')}}" alt="testi">
+                                <img src="{{ asset('assets/img/images/testi-img-3.png')}}" alt="Client Testimonial">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -1433,41 +1509,38 @@
                                     <h4 class="sub-heading after-none" data-text-animation="fade-in"
                                         data-duration="1.5">Client Testimonial</h4>
                                     <h2 class="section-title" data-text-animation data-split="word" data-duration="1">
-                                        What Our Customer Say</h2>
+                                        What Our Customers Say</h2>
                                 </div>
                                 <div class="testi-carousel-2 swiper">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
+                                        <div class="swiper-slide" itemscope itemtype="https://schema.org/Review">
                                             <div class="testi-box">
-                                                <p>"I just wanted to thank Hatch Agency for their expertise in
+                                                <p itemprop="reviewBody">"I just wanted to thank Hatch Agency for their expertise in
                                                     optimizing our website. After the redesign, our organic traffic has
                                                     increased significantly, leading to more conversions. We are
                                                     thrilled with the results!"</p>
-                                                <div class="author-box">
-                                                    <img src="{{ asset('assets/img/testi/testi-author-4.png')}}" alt="img">
-                                                    <h4 class="name">Zulfikuar Smith <span>Co-founder, Grable</span>
+                                                <div class="author-box" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                                                    <img src="{{ asset('assets/img/testi/testi-author-4.png')}}" alt="Zulfikuar Smith">
+                                                    <h4 class="name" itemprop="name">Zulfikuar Smith <span itemprop="jobTitle">Co-founder, Grable</span>
                                                     </h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
+                                        <div class="swiper-slide" itemscope itemtype="https://schema.org/Review">
                                             <div class="testi-box">
-                                                <p>"I just wanted to thank Hatch Agency for their expertise in
-                                                    optimizing our website. After the redesign, our organic traffic has
-                                                    increased significantly, leading to more conversions. We are
-                                                    thrilled with the results!"</p>
-                                                <div class="author-box">
-                                                    <img src="{{ asset('assets/img/testi/testi-author-4.png')}}" alt="img">
-                                                    <h4 class="name">Zulfikuar Smith <span>Co-founder, Grable</span>
+                                                <p itemprop="reviewBody">"The team at Hatch Agency transformed our digital presence completely. Their strategic approach to our marketing campaign resulted in a 200% increase in lead generation within just three months."</p>
+                                                <div class="author-box" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                                                    <img src="{{ asset('assets/img/testi/testi-author-5.png')}}" alt="Sarah Johnson">
+                                                    <h4 class="name" itemprop="name">Sarah Johnson <span itemprop="jobTitle">Marketing Director, TechFlow</span>
                                                     </h4>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-arrow">
-                                        <div class="swiper-nav swiper-next"><i
+                                        <div class="swiper-nav swiper-next" aria-label="Next testimonial"><i
                                                 class="fa-sharp fa-regular fa-chevron-left"></i></div>
-                                        <div class="swiper-nav swiper-prev"><i
+                                        <div class="swiper-nav swiper-prev" aria-label="Previous testimonial"><i
                                                 class="fa-sharp fa-regular fa-chevron-right"></i></div>
                                     </div>
                                 </div>
@@ -1578,7 +1651,7 @@
                                                         </li>
                                                         <li><i class="fa-light fa-user"></i>Post by: Admin</li>
                                                     </ul>
-                                                    <h3 class="title"><a href="blog-details">Inside Hutch’s
+                                                    <h3 class="title"><a href="blog-details">Inside Hutch's
                                                             Playbook for Crafting Future-Centric Digital Experiences</a>
                                                     </h3>
                                                     <a href="blog-details" class="rr-primary-btn">Read More <i
@@ -1600,7 +1673,7 @@
                                                         </li>
                                                         <li><i class="fa-light fa-user"></i>Post by: Admin</li>
                                                     </ul>
-                                                    <h3 class="title"><a href="blog-details">Inside Hutch’s
+                                                    <h3 class="title"><a href="blog-details">Inside Hutch's
                                                             Playbook for Crafting Future-Centric Digital Experiences</a>
                                                     </h3>
                                                     <a href="blog-details" class="rr-primary-btn">Read More <i
@@ -1678,7 +1751,7 @@
                     },
                     "Custom Website Design": {
                         heading: "Custom Website Design",
-                        description: "Our expert designers create stunning and functional websites that enhance user experience and engagement. A well-designed website serves as the foundation of your online presence, and our team ensures that your website is visually appealing, responsive, and user-friendly. We focus on designing websites that reflect your brand identity, capture the essence of your business, and create meaningful interactions with your audience. Our design process begins with understanding your brand’s goals, audience preferences, and industry trends to create a customized web experience. Whether you need an e-commerce store, a corporate website, or a portfolio site, we tailor our solutions to meet your specific needs."
+                        description: "Our expert designers create stunning and functional websites that enhance user experience and engagement. A well-designed website serves as the foundation of your online presence, and our team ensures that your website is visually appealing, responsive, and user-friendly. We focus on designing websites that reflect your brand identity, capture the essence of your business, and create meaningful interactions with your audience. Our design process begins with understanding your brand's goals, audience preferences, and industry trends to create a customized web experience. Whether you need an e-commerce store, a corporate website, or a portfolio site, we tailor our solutions to meet your specific needs."
                     },
                     "Landing Optimization": {
                         heading: "Landing Optimization",
