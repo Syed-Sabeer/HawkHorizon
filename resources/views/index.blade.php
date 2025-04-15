@@ -516,7 +516,7 @@
             <!-- Clear separation between sections -->
             <div class="section-separator" style="height: 50px;"></div>
 
-            <section class="process-section-3 pt-130 pb-130 bd-bottom">
+            {{-- <section class="process-section-3 pt-130 pb-130 bd-bottom">
                 <div class="container">
                     <div class="section-heading heading-3 text-center">
                         <span class="bg-text">NEWS LETTER</span>
@@ -525,7 +525,7 @@
                             data-duration="0.6" data-stagger="0.03">Have Any Contact! Say The People Trust Us</h2>
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             <!-- Clear separation between sections -->
             <div class="section-separator" style="height: 50px;"></div>
