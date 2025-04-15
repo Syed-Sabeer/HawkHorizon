@@ -529,6 +529,9 @@
                             data-duration="0.6" data-stagger="0.03">Have Any Contact! Say The People Trust Us</h2>
                     </div>
                 </div>
+                <div style="text-align: center; margin-top: 15px;">
+                    <a href="{{ route('contact') }}" class="rr-primary-btn">Contact US <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                </div>
             </section>
 
             <!-- Clear separation between sections -->
