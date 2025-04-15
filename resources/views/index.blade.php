@@ -1,8 +1,12 @@
 @extends('layouts.master')
-<title>Digital Marketing Agency in Pennsylvania (PA), USA</title>
+
+@section('title', 'Digital Marketing Agency in Pennsylvania (PA), USA')
+
+@section('meta')
     <meta name="title" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
     <meta name="description" content="Looking for a top Digital Marketing Agency in Pennsylvania (PA), USA? We offer expert services in SEO, PPC, and social media to grow your business online.">
     <meta name="keywords" content="Digital Marketing Agency in Pennsylvania, Digital Marketing Agency in PA, Digital Marketing Agency in USA">
+@endsection
 
 @section('main-container')
 
@@ -77,26 +81,44 @@
 
     
 
-            <section class="hero-section">
-                <div class="hero-bg-shape"><img src="{{ asset('assets/img/bg-img/hero-bg-shape.png')}}" alt="shape"></div>
-                <div class="hero-shape"><img src="{{ asset('assets/img/shapes/hero-shape-1.png')}}" alt="shape"></div>
-                <div class="hero-images">
-                    <img src="{{ asset('assets/img/images/hero-img-1.png')}}" alt="hero">
-                    <img src="{{ asset('assets/img/images/hero-img-2.png')}}" alt="hero">
-                    <img src="{{ asset('assets/img/images/hero-img-3.png')}}" alt="hero">
+            <section class="hero-carousel">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url('{{ asset('assets/images/hero/hero-1.jpg') }}')">
+                            <div class="carousel-caption">
+                                <h1 class="display-4 fw-bold">Transform Your Digital Presence</h1>
+                                <p class="lead">We help businesses grow through strategic digital marketing solutions</p>
+                                <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('{{ asset('assets/images/hero/hero-2.jpg') }}')">
+                            <div class="carousel-caption">
+                                <h1 class="display-4 fw-bold">Expert Digital Marketing Services</h1>
+                                <p class="lead">From SEO to social media, we've got you covered</p>
+                                <a href="#services" class="btn btn-primary btn-lg">Our Services</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="hero-img"><img src="{{ asset('assets/img/images/hero-img.png')}}" alt="hero"></div>
-                <div class="container">
-                    <div class="hero-content">
-                        <h4 class="sub-title anim-text">Transforming</h4>
-                        <h2 class="title anim-text">Visions into</h2>
-                        <h3 class="bottom-title anim-text">Digital Reality</h3>
-                        <a href="about" class="hero-btn"><i class="fa-thin fa-arrow-right"></i></a>
+                <div class="running-text">
+                    <div class="text-content">
+                        <span class="me-4">🚀 Boost Your Online Visibility</span>
+                        <span class="me-4">📈 Increase Your ROI</span>
+                        <span class="me-4">🎯 Targeted Marketing Strategies</span>
+                        <span class="me-4">💡 Expert Digital Solutions</span>
+                        <span class="me-4">📱 Mobile-First Approach</span>
                     </div>
                 </div>
             </section>
-            <!-- ./ hero-section -->
-            
+
             <style>
                 .slider-section {
                     overflow: hidden;
@@ -514,9 +536,9 @@
             <!-- ./ process-section -->
 
             <!-- Clear separation between sections -->
-            <div class="section-separator" style="height: 50px;"></div>
+            {{-- <div class="section-separator" style="height: 50px;"></div> --}}
 
-            {{-- <section class="process-section-3 pt-130 pb-130 bd-bottom">
+            <section class="process-section-3 pt-130 pb-130 bd-bottom">
                 <div class="container">
                     <div class="section-heading heading-3 text-center">
                         <span class="bg-text">NEWS LETTER</span>
@@ -525,10 +547,10 @@
                             data-duration="0.6" data-stagger="0.03">Have Any Contact! Say The People Trust Us</h2>
                     </div>
                 </div>
-            </section> --}}
+            </section>
 
             <!-- Clear separation between sections -->
-            <div class="section-separator" style="height: 50px;"></div>
+            {{-- <div class="section-separator" style="height: 50px;"></div> --}}
 
             <section class="service-section-6 pt-130 pb-130">
                 <div class="container">

@@ -8,16 +8,29 @@ START: Hero CSS
     position: relative;
     z-index: 1;
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    @include breakpoint(md) {
+        min-height: auto;
+        padding: 80px 0;
+    }
     .hero-bg-shape{
         position: absolute;
         top: 0;
         left: 0;
         z-index: -1;
+        @include breakpoint(md) {
+            display: none;
+        }
     }
     .hero-shape{
         position: absolute;
         bottom: 23%;
         left: 0;
+        @include breakpoint(md) {
+            display: none;
+        }
     }
     .hero-img{
         position: absolute;
@@ -27,10 +40,14 @@ START: Hero CSS
             right: -20%;
         }
         @include breakpoint(md){
-            max-width: 610px;
+            position: relative;
+            max-width: 100%;
+            bottom: 0;
+            margin-top: 40px;
         }
         @include breakpoint(sm){
-            display: none;
+            display: block;
+            max-width: 100%;
         }
     }
     .hero-images{
@@ -69,7 +86,7 @@ START: Hero CSS
 }
 
 .hero-content{
-    padding: 200px 0 150px 0 !important;
+    padding: 100px 0;
     max-width: 820px;
     width: 100%;
     margin: 0 auto;
@@ -78,12 +95,10 @@ START: Hero CSS
     z-index: 2;
     @include breakpoint(lg){
         padding-left: 0;
+        max-width: 100%;
     }
     @include breakpoint(md){
-        padding: 100px 0 100px 40px;
-    }
-    @include breakpoint(sm){
-        padding-left: 0;
+        padding: 40px 0;
     }
     .sub-title{
         font-size: 50px;
@@ -129,6 +144,7 @@ START: Hero CSS
         }
         @include breakpoint(sm){
             font-size: 30px;
+            margin-bottom: 20px;
         }
     }
     .hero-btn{
@@ -142,6 +158,11 @@ START: Hero CSS
         overflow: hidden;
         position: relative;
         z-index: 1;
+        @include breakpoint(md){
+            height: 150px;
+            width: 150px;
+            font-size: 50px;
+        }
         @include breakpoint(sm){
             height: 120px;
             width: 120px;
@@ -1253,6 +1274,106 @@ START: Hero CSS
         margin: 20px 0 30px 0;
         @include breakpoint(lg){
             font-size: 16px;
+        }
+    }
+}
+
+.hero-carousel {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 600px;
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: auto;
+        text-align: left;
+        padding: 0 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .running-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 15px 0;
+        overflow: hidden;
+        white-space: nowrap;
+
+        .text-content {
+            display: inline-block;
+            animation: runningText 30s linear infinite;
+            color: #fff;
+            font-size: 16px;
+            padding: 0 20px;
+        }
+    }
+}
+
+@keyframes runningText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-carousel {
+        height: 80vh;
+        min-height: 500px;
+
+        .carousel-caption {
+            padding: 0 30px;
+        }
+
+        .running-text {
+            .text-content {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-carousel {
+        height: 70vh;
+        min-height: 400px;
+
+        .carousel-caption {
+            padding: 0 20px;
+        }
+
+        .running-text {
+            .text-content {
+                font-size: 12px;
+            }
         }
     }
 }
